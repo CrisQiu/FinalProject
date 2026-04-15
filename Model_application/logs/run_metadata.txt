@@ -1,0 +1,23 @@
+SE3 model train, validate, and interpret workflow
+River: Ob River
+Run time: 2026-04-15 13:41:57
+Project root: /home/jovyan/FinalProject
+SAT directory: /home/jovyan/FinalProject/raw_data/ERA5_temperature
+RIC directory: /home/jovyan/FinalProject/analysis_ready/RIC
+SAT file count: 728
+RIC file count: 674
+RIC values were kept unchanged after automatic inspection.
+Rows before filtering: 672. Rows after filtering valid Mean_SAT_MA10 and 0<=Mean_RIC<=1: 663.
+SAT moving average window: 10
+SAT moving average center: True
+Linear R2: 0.765466
+Linear RMSE: 0.193977
+Logistic model form: Four-parameter logistic
+Logistic R2: 0.846049
+Logistic RMSE: 0.157159
+Primary scatter figure: /home/jovyan/FinalProject/Model_application/figures/ric_sat_density_scatter_linear_logistic_fit.png
+Prediction figure: /home/jovyan/FinalProject/Model_application/figures/observed_vs_predicted_linear_logistic.png
+Time series figure: /home/jovyan/FinalProject/Model_application/figures/daily_mean_sat_and_ric_time_series.png
+Summary CSV: /home/jovyan/FinalProject/Model_application/tables/model_summary.csv
+Predictions CSV: /home/jovyan/FinalProject/Model_application/tables/model_predictions.csv
+Paired data CSV: /home/jovyan/FinalProject/Model_application/tables/paired_daily_sat_ric.csv
